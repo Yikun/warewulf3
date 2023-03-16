@@ -51,7 +51,6 @@ new($$)
             $type = "rhel";
         } elsif (-f "/etc/openEuler-release") {
             $type = "Euler";
-        }
         } elsif (-f "/etc/SuSE-release") {
             $type = "Suse";
         }
